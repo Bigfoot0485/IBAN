@@ -742,7 +742,7 @@ class IBAN_DE extends IBAN_DEFAULT {
         
         // check the bankcode fragment
         $tmpBankcode = substr( $IBAN, 4, 8 );
-        $tmpAccount = substr( $IBAN, 12, 10 );
+        $tmpAccount = (int)substr( $IBAN, 12, 10 );
         
         // choose the rule for the bankcode fragment ...
         $rule = $this->_chooseRule( $tmpBankcode );
