@@ -1,9 +1,7 @@
 IBAN
 ====
-
 Generates and validates IBANs and BIC according to the international standards
 and according to the special rules, which apply in some countries like Germany.
-
 
 Release Notes
 ------------------------
@@ -24,6 +22,17 @@ Roadmap
 1.3.2  Add PHPDoc for easier development
 1.4.0  Implements detailled logging states
 
+License
+------------------------
+Copyright (c) 2013 Sven Lötgering
+This library is been distributed with a MIT license.
+For details, please refer the file /LICENSE
 
 The autor
 ------------------------
+Sven Lötgering is developing web- and db-based applications since 2001. First
+in touch with ASP, he is now focused on PHP5, PERL, PLSQL, Linux, Oracle and
+MySQL administration. Currently he is working as a projectmanager doing software
+projects for public authorities.
+
+Get in contact with Sven at php-dev@sven-loetgering.de
